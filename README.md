@@ -47,8 +47,11 @@ Development of Website to buy electronics (similar to online retailers like Best
 
 
 ++ Front End Technologies used: HTML, CSS, AJAX, Bootstrap and Javascript 
+
 ++ Backend technologies used: JAVA, MongoDB, MySQL
+
 ++ Graph Database analysis using Neo4J, CSV, Python
+
 ++ Other technologies used like Google Maps API for location services and Twitter API for recommender feature
 
 ******************************************************************************************************************************

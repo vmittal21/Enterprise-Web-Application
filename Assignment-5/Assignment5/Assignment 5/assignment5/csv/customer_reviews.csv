@@ -1,0 +1,57 @@
+reviewDate,reviewText,productType,retailerpin,productMaker,retailercity,price,reviewerAge,_id,title,productName,userName,reviewRating
+2020-01-01,doesnt work. will return it. ,consoles,60621,sony,,1499.0,54.0,5f989f53a9902c3b01bc825c,myReviews,Sony_bravia,tanaya,1.0
+2020-12-31,The product is really good. Enjoyed :) ,consoles,60621,sony,Chicago,1499.0,23.0,5f989f53a9902c3b01bc825d,myReviews,Sony_bravia,tanaya,5.0
+2020-11-01, good!!!,tablets,60621,apple,chicago,900.0,66.0,5f989f53a9902c3b01bc825e,myReviews,iPhone 11 Pro,tanaya,4.0
+2020-02-02, nice,tablets,60621,apple,la,900.0,34.0,5f989f53a9902c3b01bc825f,myReviews,iPhone 11 Pro,George,3.0
+2020-02-02, good!,consoles,60621,samsung,iowa,1200.0,45.0,5f989f53a9902c3b01bc8260,myReviews,samsungQ80,tanaya,3.0
+2020-02-02, nice,consoles,60621,sony,toro,1499.0,44.0,5f989f53a9902c3b01bc8261,myReviews,Sony_bravia,George,4.0
+2020-11-01, top class,consoles,60621,samsung,gzb,200.0,39.0,5f989f53a9902c3b01bc8262,myReviews,Samsung Curved UHD TV,tanaya,5.0
+2020-01-01, try it,consoles,60626,panasonic,tto,450.0,51.0,5f989f53a9902c3b01bc8263,myReviews,Panasonic 65,tanaya,4.0
+2020-03-03, good one,consoles,60626,onida,rt,289.0,27.0,5f989f53a9902c3b01bc8264,myReviews,Onida 40,bingo,4.0
+2020-01-01, can try. okay for this price,consoles,60626,philips,bangalore,355.0,76.0,5f989f53a9902c3b01bc8265,myReviews,Philips 4K Ultra,bingo,2.0
+2020-04-04, must try,tablets,60626,nokia,toronto,700.0,31.0,5f989f54a9902c3b01bc8266,myReviews,Nokia Pureview,bingo,5.0
+2020-02-02,  nice product!,consoles,60626,samsung,chicago,1200.0,52.0,5f989f54a9902c3b01bc8267,myReviews,samsungQ80,bingo,4.0
+2020-02-02, nice!,consoles,60616,sony,chicago,1499.0,54.0,5f989f54a9902c3b01bc8268,myReviews,Sony_bravia,bingo,3.0
+2020-02-02, great product! must try!,consoles,60638,sony,chicago,1499.0,33.0,5f989f54a9902c3b01bc8269,myReviews,Sony_bravia,bingo,5.0
+2020-12-02, nice one!,consoles,60638,samsung,chicago,1200.0,59.0,5f989f54a9902c3b01bc826a,myReviews,samsungQ80,bingo,4.0
+2020-10-26,great product!,soundSystems,60616,philips,chicago,50.0,28.0,5f989f54a9902c3b01bc826b,myReviews,Philips HiFi Stereo,homer,5.0
+2020-10-24, awesome!,consoles,60616,philips,,355.0,35.0,5f989f54a9902c3b01bc826c,myReviews,Philips 4K Ultra,homer,4.0
+2020-10-20, Resolution is not good,consoles,60616,onida,,289.0,38.0,5f989f54a9902c3b01bc826d,myReviews,Onida 40,homer,1.0
+2020-10-01, service slow to deliver product,consoles,60616,panasonic,,450.0,61.0,5f989f54a9902c3b01bc826e,myReviews,Panasonic 65,viuse,2.0
+2020-10-13, sound is okay,soundSystems,60616,bangAndOlufsen,,199.0,36.0,5f989f54a9902c3b01bc826f,myReviews,Beolab 90,homer,3.0
+2020-09-21, wonderful product! works awesome!,soundSystems,60616,bose,,276.99,19.0,5f989f54a9902c3b01bc8270,myReviews,Acoustimass,homer,5.0
+2020-09-09, got this for my son. he loved it.,soundSystems,60616,jbl,,300.0,43.0,5f989f54a9902c3b01bc8271,myReviews,EON 10,alex,5.0
+2020-08-06, this product has great features,tablets,60616,nokia,,700.0,32.0,5f989f54a9902c3b01bc8272,myReviews,Nokia Pureview,alex,4.0
+2020-05-07,quick delivery. liked the product,tablets,60616,apple,,900.0,57.0,5f989f54a9902c3b01bc8273,myReviews,iPhone 11 Pro,viuse,4.0
+2020-10-22, bought it few days back. broke so early. seemed like an old product. didn't feel new,laptops,60616,hp,,874.0,18.0,5f989f54a9902c3b01bc8274,myReviews,HP 360,alex,2.0
+2020-08-22, felt so good buying this product! works great,voiceAssistants,60616,amazon,,120.98,21.0,5f989f54a9902c3b01bc8275,myReviews,Amazon Echo 2nd Gen,George,5.0
+2020-10-18, got this for my son. perfect gift,headPhones,60616,philips,,20.0,48.0,5f989f54a9902c3b01bc8276,myReviews,Philips RT-78,alex,5.0
+2020-10-19,nice. good to track my dog,petTrackers,60616,fitbark,,56.0,29.0,5f989f54a9902c3b01bc8277,myReviews,FitBark 2 Dog Activity Monitor,alex,4.0
+2020-10-19, best deal bought ever,fitnessWatches,60622,outad,,140.0,53.0,5f989f54a9902c3b01bc8278,myReviews,Outad Waterproof Watch,juj,5.0
+2020-09-09, not worth the price,virtualRealities,60622,google,,25.0,20.0,5f989f54a9902c3b01bc8279,myReviews,GoogleCardboard VR,viuse,2.0
+2020-09-09, works nice,headPhones,60622,motorola,,29.99,49.0,5f989f54a9902c3b01bc827a,myReviews,Motorola Q,juj,4.0
+2020-10-13, loved it,soundSystems,60622,sony,,321.0,59.0,5f989f54a9902c3b01bc827b,myReviews,Sony M20,juj,5.0
+2020-09-07, slow service,smartWatches,60622,hotsellrz,,120.0,62.0,5f989f54a9902c3b01bc827c,myReviews,Hotsellrz Smart Watch,viuse,3.0
+2020-09-03, wow!,consoles,60622,samsung,,1200.0,38.0,5f989f54a9902c3b01bc827d,myReviews,samsungQ80,juj,5.0
+2020-10-24, great,consoles,60603,samsung,,1200.0,34.0,5f989f54a9902c3b01bc827e,myReviews,samsungQ80,Joseph,5.0
+2020-09-25, its ok. not so good,soundSystems,60603,bangAndOlufsen,,199.0,55.0,5f989f54a9902c3b01bc827f,myReviews,Beolab 90,Joseph,3.0
+2020-09-17, i loved the phone at such good price,tablets,60603,google,,1099.0,27.0,5f989f55a9902c3b01bc8280,myReviews,Google Pixel 3 XL,George,5.0
+2020-10-24, not so great but its okay,fitnessWatches,60603,odfit,,400.0,62.0,5f989f55a9902c3b01bc8281,myReviews,Odfit Tracker,Joseph,3.0
+2020-10-16, worst service ever. very slow!,consoles,60607,samsung,,1200.0,52.0,5f989f55a9902c3b01bc8282,myReviews,samsungQ80,George,1.0
+2020-10-22, seems like used product,consoles,60607,panasonic,,450.0,67.0,5f989f55a9902c3b01bc8283,myReviews,Panasonic 65,arushi,2.0
+2020-10-03, great display,consoles,60607,onida,,289.0,22.0,5f989f55a9902c3b01bc8284,myReviews,Onida 40,arushi,5.0
+, awesome,soundSystems,60607,bangAndOlufsen,,199.0,46.0,5f989f55a9902c3b01bc8285,myReviews,Beolab 90,George,4.0
+, loved it,tablets,60607,apple,,900.0,32.0,5f989f55a9902c3b01bc8286,myReviews,iPhone 11 Pro,arushi,5.0
+, favorite laptop! works perfect,laptops,60607,apple,,1500.0,27.0,5f989f55a9902c3b01bc8287,myReviews,Mac Book 3,arushi,5.0
+, keeps getting slow. have to restart again and again,laptops,60607,acer,,1229.0,60.0,5f989f55a9902c3b01bc8288,myReviews,Acer Series Y,George,1.0
+, item came broken,voiceAssistants,60607,google,,40.0,18.0,5f989f55a9902c3b01bc8289,myReviews,Google Home Mini,George,2.0
+, my favorite brand,smartWatches,60607,kadell,,230.99,36.0,5f989f55a9902c3b01bc828a,myReviews,Kadell Smart Watch,bingo,5.0
+,item came broken,voiceAssistants,60607,google,,40.0,45.0,5f989f55a9902c3b01bc828b,myReviews,Google Home Mini,arushi,1.0
+2020-10-24, worst buy ever,consoles,60603,samsung,,1200.0,34.0,5f989f55a9902c3b01bc828c,myReviews,samsungQ80,George,1.0
+2020-09-25, its ok. not so good,soundSystems,60603,bangAndOlufsen,,199.0,55.0,5f989f55a9902c3b01bc828d,myReviews,Beolab 90,Joseph,2.0
+2020-09-17, works perfect,tablets,60603,google,,1099.0,27.0,5f989f55a9902c3b01bc828e,myReviews,Google Pixel 3 XL,Joseph,4.0
+2020-10-24," just okayish, but fine for this price",fitnessWatches,60603,odfit,,400.0,62.0,5f989f55a9902c3b01bc828f,myReviews,Odfit Tracker,Joseph,3.0
+, keeps getting slow. have to restart again and again,laptops,60638,acer,,1229.0,60.0,5f989f55a9902c3b01bc8290,myReviews,Acer Series Y,arushi,1.0
+, damaged!!!,voiceAssistants,60638,google,,40.0,18.0,5f989f55a9902c3b01bc8291,myReviews,Google Home Mini,George,2.0
+, thanks for this wonderful product,smartWatches,60638,kadell,,230.99,36.0,5f989f55a9902c3b01bc8292,myReviews,Kadell Smart Watch,arushi,5.0
+,not my type,voiceAssistants,60638,google,,40.0,45.0,5f989f58a9902c3b01bc8293,myReviews,Google Home Mini,arushi,3.0
