@@ -1,0 +1,185 @@
+.fixed-top-2 {
+  margin-top: 56px;
+}
+
+body {
+  padding-top: 105px;
+  background-color: #fff;
+}
+
+header,
+footer {
+  background-color: #232946;
+  z-index: 2000 !important;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a,
+h4 {
+  color: #232946;
+}
+
+/*custom search button and input*/
+#search-form {
+  background-color: #232946;
+  color: #fff;
+  border: 1px solid #eebbc3;
+}
+
+#search-btn,
+#search-input,
+#search-input::placeholder {
+  background-color: #232946;
+  border: 1px solid #232946;
+  color: #fff;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  background-color: #fff;
+  color: #232946;
+  position: absolute;
+  border: 1px solid #eebbc3;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  width: 119%;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+/*autocomplete*/
+.autocomplete-items tr {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff; 
+  background-color: #232946;
+  border-bottom: 1px solid #eebbc3; 
+}
+
+.autocomplete-items tr td {
+  padding: 8px;
+}
+
+.popupCell a {
+  color: #fff;
+  text-decoration: none;
+}
+/* custom login form */
+.login-form-container {
+  margin: 0 auto;
+  width: 35%;
+}
+
+/* custom appointment form */
+.appointment-form-container {
+  margin: 3em auto;
+  width: 60%;
+}
+
+/* custom input placeholder */
+input::placeholder {
+  font-size: 14px !important;
+}
+
+/* custom all butttons */
+.form-btn {
+  color: #232946 !important;
+  font-weight: bold !important;
+  border-color: #eebbc3 !important;
+  background-color: #eebbc3 !important;
+}
+
+/* custom icons color */
+i {
+  color: #b8c1ec;
+}
+
+/* custome buttons in product page */
+.card button:first-of-type {
+  color: #232946;
+  background-color: #b8c1ec;
+}
+
+.card button:nth-of-type(2),
+.card button:nth-of-type(3) {
+  color: #232946;
+}
+
+/* custom style in cart page */
+.btn-checkout {
+  color: #232946;
+  background-color: #b8c1ec;
+}
+
+.table td {
+  border-top: 1px solid #b8c1ec;
+}
+
+.table thead th {
+  border-top: 1px solid #b8c1ec;
+  border-bottom: 1px solid #b8c1ec;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #fff; /* Assuming you want the hover color to be white */
+}
+
+/* find-doctor and medical-services page */
+.locations-filters {
+  border-radius: 6px;
+  padding: 15px;
+  background-color: #121212;
+  color: #fff;
+}
+
+.locations-filters:hover,
+.location-list:hover {
+  box-shadow: 1px 2px 24px #666;
+  transition: 0.5;
+}
+
+.filters-form-title {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.location-list {
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgba(255, 87, 34, 0.9);
+  color: #fff;
+}
+
+#map {
+  border-radius: 6px;
+}
+
+#doctor-info {
+  background: #f1f1f1;
+  margin-bottom: 5px;
+}
+
+.doctor-info {
+  list-style: none;
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: rgba(80, 140, 140, 0.85);
+  border-radius: 6px;
+  transition: 0.55s;
+  color: #000;
+}
+
+.doctor-info:hover {
+  box-shadow: 7px 5px 15px 5px #a1a1a1;
+  transition: 0.55s;
+}

@@ -1,0 +1,11 @@
+id,name,address,zipcode,longtitude,latitude
+1,store1,"443 E 34TH St",60616,-87.614550,41.832820
+2,store2,"1224 S Wabash Ave",60605,-87.626020,41.866340
+3,store3,"1340 S Canal St",60607,-87.639860,41.864360
+4,store4,"1220 S Ashland Ave",60608,-87.666510,41.866310
+5,store5,"370 N Des Plaines St",60661,-87.645040,41.888760
+6,store6,"3644 S Archer Ave",60609,-87.645040,41.888760
+7,store7,"550 N State St",60654,-87.645040,41.888760
+8,store8,"102 W Division St",60610,-87.645040,41.888760
+9,store9,"424 W Division St",60610,-87.639630,41.903880
+10,store10,"6014 S Cottage",60614,-87.606550,41.784540

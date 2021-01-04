@@ -1,0 +1,13 @@
+username,userpassword,firstname,lastname,usertype,gender,birth,address,city,state,zipcode,age,job,email
+angel@gmail.com,1414,Angel,Main,customer,female,11/24/1988,4227 W 21st St,Chicago,IL,60623,32,accountant,angel@gmail.com
+jessi@gmail.com,909,Jessi,Liu,customer,female,12/22/1998,12112 S Front Ave,Chicago,IL,60628,22,student,jessi@gmail.com
+john@gmail.com,1111,John,Welch,customer,male,2/22/1996,1033 W 14th Pl,Chicago,IL,60616,23,lawyer,john@gmail.com
+judy@gmail.com,1234,Judy,Huang,customer,Female,3/12/1996,2045 W Jackson Blvd,Chicago,IL,60612,23,Student,judy@gmail.com
+kaylum@gmail.com,8765,Kaylum,Vinson,customer,male,5/12/1990,181 E 24th St,Chicago,IL,60411,30,professor,kaylum@gmail.com 
+kelly@gmail.com,1223,Kelly,Ball,customer,female,1/1/1996,401 E 32nd St,Chicago,IL,60618,23,driver,kelly@gmail.com
+liza@gmail.com,0,Liza,Badom,customer,female,10/10/1995,899 S Plymouth Ct,Chicago,IL,60605,24,driver,liza@gmail.com
+ned@gmail.com,8877,Ned,Lyon,customer,male,12/25/1990,8619 S Wolcott Ave,Chicago,IL,60620,30,dancer,ned@gmail.com
+rida@gmail.com,9292,Rida,Eaton,customer,male,9/12/1980,1820 Victoria Ave,Chicago,IL,60064,40,scientist,rida@gmail.com
+ryan@gmail.com,9988,Ryan,Perry,customer,male,9/21/1992,920 Jacob Ct,Chicago,IL,60185,28,teacher,ryan@gmail.com
+vinc@gmail.com,1231,Vinc,Luise,customer,male,5/6/1997,810 Parkside Ave,Chicago,IL,60640,24,police,vinc@gmail.com
+zayn@gmail.com,1122,Zayn,Haley,customer,male,1/23/1989,4149 N Western Ave,Chicago,IL,60643,31,chef,zayn@gmail.com

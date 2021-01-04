@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Health Hub Homepage</title>
+    <!-- Link to font awesome CDN -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- Link to bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Import font awesome CDN -->
+    <script src="https://use.fontawesome.com/6373855059.js"></script>
+    <!-- Link to bootstrap CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Page Content -->
+    <div class="appointment-form-container">
+      <h4>Schedule an Appointment</h4>
+      <p>
+        After you've sent this request, we'll send you a confirmation email.
+      </p>
+      <form>
+        <h5 class="border-bottom pb-2">Patient Information</h5>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <!-- auto-complete feature if user has already created an account -->
+            <!-- name input -->
+            <input
+              type="text"
+              class="form-control form-control-lg my-2"
+              name="firstName"
+              placeholder="* First Name"
+              required
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg my-2"
+              name="middleName"
+              placeholder="Middle Initial"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg my-2"
+              name="lastName"
+              placeholder="* Last Name"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <!-- gender selection-->
+            <select class="form-control text-secondary my-2" required>
+              <option disabled selected>* Gender</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6 input-group">
+            <!-- date of birth selection -->
+            <input
+              type="date"
+              class="form-control text-secondary my-2"
+              placeholder="* Date of Birth"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <!-- address input-->
+            <input
+              placeholder="* Address"
+              type="text"
+              class="form-control form-control-lg my-2"
+              name="address"
+              required
+            />
+          </div>
+          <div class="form-group col-md-2">
+            <input
+              placeholder="* City"
+              type="text"
+              class="form-control form-control-lg my-2"
+              name="city"
+              required
+            />
+          </div>
+          <div class="form-group col-md-2">
+            <select
+              name="state"
+              class="form-control text-secondary my-2"
+              required
+            >
+              <option selected>* State</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <input
+              placeholder="* Zip Code"
+              type="text"
+              class="form-control form-control-lg my-2"
+              name="zipCode"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input
+              type="tel"
+              class="form-control form-control-lg my-2"
+              placeholder="* Phone"
+              name="phone"
+              required
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <!-- email input -->
+            <input
+              type="email"
+              class="form-control form-control-lg my-2"
+              placeholder="* Email"
+              name="email"
+              required
+            />
+          </div>
+        </div>
+        <h5 class="border-bottom pb-2">Appointment Information</h5>
+        <div class="form-row">
+          <div class="form-group col-md-6 input-group">
+            <input
+              type="date"
+              class="form-control form-control-lg text-secondary my-2"
+              placeholder="* Appointment Date"
+              name="appointmentDate"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <select
+              name="appointmentTime"
+              class="form-control text-secondary my-2"
+              required
+            >
+              <option disabled selected>* Please select a time</option>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-10">
+            <textarea
+              name="reason"
+              class="form-control form-control-lg my-4"
+              rows="4"
+              placeholder="* Reason for Appointment"
+              required
+            ></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="form-btn btn btn-block mb-5">
+          Make an Appointment
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

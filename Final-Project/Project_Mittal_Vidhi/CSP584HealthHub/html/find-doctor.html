@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Health Hub Medical Services</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google MAPS-->
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 700px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZDNJwU99Q009643oAb4Np9Sw6ebIN3mo&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <div class="container mt-4" id="custom-border">
+      <div class="row">
+        <div class="col-3" id="custom-border">
+          <div class="locations-filters">
+            <div class="wrap">
+              <h2 class="filters-form-title">
+                Select a service to find a provider near you:
+              </h2>
+
+              <div class="filters-form-wrapper">
+                <form
+                  id="frm_services_filters"
+                  class="filters-form"
+                  method="get"
+                  action="https://www.msahealthcare.com/locations"
+                >
+                  <div class="filters-form-filters">
+                    <div class="filters-form-checkbox">
+                      <input
+                        type="checkbox"
+                        id="chk_home_health"
+                        name="services[]"
+                        data-service-id="23"
+                        value="23"
+                      />
+                      <label for="chk_home_health">Home Health</label>
+                    </div>
+                    <div class="filters-form-checkbox">
+                      <input
+                        type="checkbox"
+                        id="chk_hospice"
+                        name="services[]"
+                        data-service-id="26"
+                        value="26"
+                      />
+                      <label for="chk_hospice">Hospice Care</label>
+                    </div>
+                    <div class="filters-form-checkbox">
+                      <input
+                        type="checkbox"
+                        id="chk_medical_equipment"
+                        name="services[]"
+                        data-service-id="25"
+                        value="25"
+                      />
+                      <label for="chk_medical_equipment"
+                        >Home Medical Equipment</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="filters-form-actions">
+                    <div class="form-filters">
+                      <div class="js-form-type-text">
+                        <label for="txt_zipcode">Zipcode</label>
+                        <input
+                          type="text"
+                          id="txt_zipcode"
+                          name="sa"
+                          class="form-text"
+                        />
+                      </div>
+                      <div class="js-form-type-select">
+                        <label for="sel_radius">Distance</label>
+                        <select id="sel_radius" name="rad" class="form-select">
+                          <option value="5">5 miles</option>
+                          <option value="10">10 miles</option>
+                          <option value="25" selected="selected">
+                            25 miles
+                          </option>
+                          <option value="50">50 miles</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="actions">
+                      <input
+                        type="submit"
+                        class="form-submit button yellow"
+                        value="Go"
+                        id="edit-actions-submit"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="custom-border">
+            <div class="col" id="custom-border">
+              <div class="location-list" id="custom-border">
+                <h2>Locations</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9" id="custom-border">
+          <ul>
+            <li class="doctor-info" id="custom-border">
+              <h5>Dr. David Walner, MD</h5>
+              <p>Ear, Nose & Throat Doctor</p>
+              <p>773456789</p>
+              <p>1460 N Halsted St, Suite 506Chicago, IL, 60642</p>
+            </li>
+
+            <li class="doctor-info" id="custom-border">
+              <h5>Dr. Kathryn Colman, MD</h5>
+              <p>Ear, Nose & Throat Doctor</p>
+              <p>773542987</p>
+              <p>3000 N Halsted St, Suite 400ChicagoIL60657</p>
+            </li>
+
+            <li class="doctor-info" id="custom-border">
+              <h5>Dr. Raymond Kleinfelder, DO</h5>
+              <p>Dermatologist</p>
+              <p>773765432</p>
+              <p>
+                Lincoln Park 2845 N Sheridan Rd, Suite 912, Chicago, IL, 60657
+              </p>
+            </li>
+            <li class="doctor-info" id="custom-border">
+              <h5>Dr. Renata Gazzi-Johnson, MD</h5>
+              <p>Primary Care Doctor</p>
+              <p>773123870</p>
+              <p>2418 N Ashland AveChicagoIL60614</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Google MAPS-->
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 41.8781, lng: 87.6298 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+  </body>
+</html>

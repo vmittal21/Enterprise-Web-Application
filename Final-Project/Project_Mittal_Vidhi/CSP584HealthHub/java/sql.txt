@@ -1,0 +1,93 @@
+CREATE TABLE `doctor` (
+  `doctorName` varchar(40) DEFAULT NULL,
+  `specialty` varchar(40) DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `phoneNum` varchar(40) DEFAULT NULL,
+  `zipcode` varchar(40) DEFAULT NULL,
+  `longtitude` varchar(40) NOT NULL,
+  `latitude` varchar(40) NOT NULL,
+  PRIMARY KEY (`longtitude`,`latitude`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `product` (
+  `id` varchar(40) NOT NULL,
+  `productName` varchar(100) DEFAULT NULL,
+  `price` double DEFAULT NULL,
+  `image` varchar(40) DEFAULT NULL,
+  `manufacturer` varchar(40) DEFAULT NULL,
+  `productCondition` varchar(40) DEFAULT NULL,
+  `discount` double DEFAULT NULL,
+  `catagory` varchar(40) DEFAULT NULL,
+  `inventory` int DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `stores` (
+  `id` int NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `zipcode` varchar(45) DEFAULT NULL,
+  `longtitude` varchar(100) DEFAULT NULL,
+  `latitude` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `transactions` (
+  `login_ID` varchar(40) DEFAULT NULL,
+  `Customer_Name` varchar(40) DEFAULT NULL,
+  `Customer_Age` varchar(10) DEFAULT NULL,
+  `Customer_Occupation` varchar(40) DEFAULT NULL,
+  `Credit_Card_Info` varchar(100) DEFAULT NULL,
+  `Order_ID` varchar(40) DEFAULT NULL,
+  `Order_Date` date DEFAULT NULL,
+  `Expected_Delivery_Date` date DEFAULT NULL,
+  `Actual_Delivery_Date` date DEFAULT NULL,
+  `Product_ID` varchar(40) DEFAULT NULL,
+  `Product_Name` varchar(100) DEFAULT NULL,
+  `Category` varchar(40) DEFAULT NULL,
+  `Manufacturer` varchar(40) DEFAULT NULL,
+  `Review_Rating` int DEFAULT NULL,
+  `Delivery_Tracking_ID` varchar(40) DEFAULT NULL,
+  `Delivery_Type` varchar(40) DEFAULT NULL,
+  `Delivery_Zip_Code` varchar(40) DEFAULT NULL,
+  `Transaction_Status` varchar(10) DEFAULT NULL,
+  `Order_Returned` varchar(10) DEFAULT NULL,
+  `Order_Delivered_on_Time` varchar(10) DEFAULT NULL,
+  `Total_Price` double DEFAULT NULL,
+  `Quantity` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `user` (
+  `username` varchar(40) NOT NULL,
+  `userpassword` varchar(40) DEFAULT NULL,
+  `firstname` varchar(40) DEFAULT NULL,
+  `lastname` varchar(40) DEFAULT NULL,
+  `usertype` varchar(40) DEFAULT NULL,
+  `gender` varchar(30) DEFAULT NULL,
+  `birth` varchar(40) DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `city` varchar(40) DEFAULT NULL,
+  `state` varchar(40) DEFAULT NULL,
+  `zipcode` varchar(40) DEFAULT NULL,
+  `age` varchar(4) DEFAULT NULL,
+  `job` varchar(10) DEFAULT NULL,
+  `email` varchar(40) DEFAULT NULL,
+  PRIMARY KEY (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `medicalservice` (
+  `id` int NOT NULL,
+  `type` varchar(45) DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `zipcode` varchar(45) DEFAULT NULL,
+  `longtitude` varchar(100) DEFAULT NULL,
+  `latitude` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO user VALUES("1","judy@gmail.com","1234","Judy","Huang","customer");
+INSERT INTO user VALUES("2","liza@gmail.com","0000","Liza","Badom","customer");
+INSERT INTO user VALUES("3","john@gmail.com","1111","John","Welch","customer");
+INSERT INTO user VALUES("4","kelly@gmail.com","1223","Kelly","Ball","customer");
+INSERT INTO user VALUES("5","ryan@gmail.com","9988","Ryan","Perry","customer");

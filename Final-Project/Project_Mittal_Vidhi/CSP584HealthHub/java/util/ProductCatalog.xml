@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+<VitaminCatalog>
+    <vitamin id="vitamin01">
+        <name>Zinc 30 mg Tablets 100 CT</name>
+        <price>4.19</price>
+        <image>vitamin01.jpg</image>
+        <manufacturer>Nature Made</manufacturer>
+        <condition>New</condition>
+        <discount>1.0</discount>
+    </vitamin>
+    <vitamin id="vitamin02">
+        <name>Vitamin D3  50 mcg Liquid Softgels 2000 IU 90CT</name>
+        <price>28.49</price>
+        <image>vitamin02.jpg</image>
+        <manufacturer>Nature Made</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </vitamin>
+    <vitamin id="vitamin03">
+        <name>Calm Relax with 300mg Magnesium and 125mg Ashwagandha</name>
+        <price>19.99</price>
+        <image>vitamin03.jpg</image>
+        <manufacturer>Nature Made</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </vitamin>
+    <vitamin id="vitamin04">
+        <name>Nature Made Magnesium Citrate 250 mg Softgels 60CT</name>
+        <price>13.99</price>
+        <image>vitamin04.jpg</image>
+        <manufacturer>Nature Made</manufacturer>
+        <condition>New</condition>
+        <discount>1.0</discount>
+    </vitamin>
+    <vitamin id="vitamin05">
+        <name>Folic Acid Tablets 800mcg 100CT</name>
+        <price>4.19</price>
+        <image>vitamin05.jpg</image>
+        <manufacturer>CVS Health</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </vitamin>
+    <vitamin id="vitamin06">
+        <name>Calcium and Magnesium With Zinc Tablets</name>
+        <price>4.99</price>
+        <image>vitamin06.jpg</image>
+        <manufacturer>CVS Health</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </vitamin>
+    <vitamin id="vitamin07">
+        <name>Vitamin C 10CT</name>
+        <price>6.49</price>
+        <image>vitamin07.jpg</image>
+        <manufacturer>Emergen-C</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </vitamin>
+    <vitamin id="vitamin08">
+        <name>Immune+ Vitamin C Tablet</name>
+        <price>8.29</price>
+        <image>vitamin08.jpg</image>
+        <manufacturer>Emergen-C</manufacturer>
+        <condition>New</condition>
+        <discount>1.0</discount>
+    </vitamin>
+</VitaminCatalog>
+<MedicineCatalog>
+    <medicine id="medicine01">
+        <name>Extra Strength Rapid Release Gels with Acetaminophen</name>
+        <price>7.49</price>
+        <image>medicine01.jpg</image>
+        <manufacturer>Tylenol </manufacturer>
+        <condition>New</condition>
+        <discount>1.0</discount>
+    </medicine>
+    <medicine id="medicine02">
+        <name>Sinus Severe Daytime Caplets with Non-Drowsy Formula 24 CT</name>
+        <price>11.99</price>
+        <image>medicine02.jpg</image>
+        <manufacturer>Tylenol</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </medicine>
+    <medicine id="medicine03">
+        <name>Cold Max Night Cool Burst Liquid 8 fl OZ</name>
+        <price>12.19</price>
+        <image>medicine03.jpg</image>
+        <manufacturer>Tylenol</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </medicine>
+    <medicine id="medicine04">
+        <name>Easy Open Athritis Cap Liquid Gel, Pain Reliever 80ct</name>
+        <price>12.99</price>
+        <image>medicine04.jpg</image>
+        <manufacturer>Aleve</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </medicine>
+    <medicine id="medicine05">
+        <name>Back and Muscle Pain Tablet, Pain Reliever/Fever Reducer 200ct</name>
+        <price>19.99</price>
+        <image>medicine05.jpg</image>
+        <manufacturer>Aleve</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </medicine>
+</MedicineCatalog>
+<PersonalCareCatalog>
+    <personalcare id="personalcare01">
+        <name>Custom Molded Earplugs Black</name>
+        <price>19.69</price>
+        <image>personalcare01.jpg</image>
+        <manufacturer>Decibullz</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </personalcare>
+    <personalcare id="personalcare02">
+        <name>Fungal Nail Renewal 0.33 OZ</name>
+        <price>24.99</price>
+        <image>personalcare02.jpg</image>
+        <manufacturer>Kerasal</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </personalcare>
+    <personalcare id="personalcare03">
+        <name>3-Ply Cloth Face Masks 50CT</name>
+        <price>14.99</price>
+        <image>personalcare03.jpg</image>
+        <manufacturer>Hanes</manufacturer>
+        <condition>New</condition>
+        <discount>1.0</discount>
+    </personalcare>
+    <personalcare id="personalcare04">
+        <name>Infrared Forehead Thermometer 2CT</name>
+        <price>140</price>
+        <image>personalcare04.jpg</image>
+        <manufacturer>ConairCare</manufacturer>
+        <condition>New</condition>
+        <discount>30.0</discount>
+    </personalcare>
+    <personalcare id="personalcare05">
+        <name>Nighttime Lubricant Eye Ointment 0.12 OZ</name>
+        <price>12.99</price>
+        <image>personalcare05.jpg</image>
+        <manufacturer>Systane</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </personalcare>
+</PersonalCareCatalog>
+<HomeCareCatalog>
+    <homecare id="homecare01">
+        <name>Steel Drop Arm Bedside Commode with Padded</name>
+        <price>150.99</price>
+        <image>homecare01.jpg</image>
+        <manufacturer>Drive Medical</manufacturer>
+        <condition>New</condition>
+        <discount>20.0</discount>
+    </homecare>
+    <homecare id="homecare02">
+        <name>TranSport Aluminum Transport Wheelchair</name>
+        <price>219.99</price>
+        <image>homecare02.jpg</image>
+        <manufacturer>Drive Medical</manufacturer>
+        <condition>New</condition>
+        <discount>20.0</discount>
+    </homecare>
+    <homecare id="homecare03">
+        <name>Raised Toilet Seat</name>
+        <price>36.99</price>
+        <image>homecare03.jpg</image>
+        <manufacturer>Drive Medical</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </homecare>
+    <homecare id="homecare04">
+        <name>Plus-Sized Bariatric Blood Pressure Cuff</name>
+        <price>22</price>
+        <image>homecare04.jpg</image>
+        <manufacturer>Drive Medical</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </homecare>
+    <homecare id="homecare05">
+        <name>Master Cardiology Stethoscope 27 in Length</name>
+        <price>289.49</price>
+        <image>homecare05.jpg</image>
+        <manufacturer>Littmann</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+    </homecare>
+</HomeCareCatalog>
+<NutritionCatalog>
+    <nutrition id="nutrition01">
+        <name>Natures Ultimate Lean Muscle Protein Powder</name>
+        <price>19.99</price>
+        <image>nutrition01.jpg</image>
+        <manufacturer>Muscle Milk</manufacturer>
+        <condition>New</condition>
+        <discount>2.0</discount>
+    </nutrition>
+    <nutrition id="nutrition02">
+        <name>Snacks Madagascar Vanilla Almond Bar</name>
+        <price>5.99</price>
+        <image>nutrition02.jpg</image>
+        <manufacturer>Kind</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+    </nutrition>
+    <nutrition id="nutrition03">
+        <name>Protein and Greens Drink Mix 18.6 OZ</name>
+        <price>26.99</price>
+        <image>nutrition03.jpg</image>
+        <manufacturer>Vega</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </nutrition>
+    <nutrition id="nutrition04">
+        <name>Snack Bars 12CT</name>
+        <price>22.99</price>
+        <image>nutrition04.jpg</image>
+        <manufacturer>Vega</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </nutrition>
+    <nutrition id="nutrition05">
+        <name>Essentials Shake</name>
+        <price>40</price>
+        <image>nutrition05.jpg</image>
+        <manufacturer>Vega</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+    </nutrition>
+</NutritionCatalog>
+</ProductCatalog>

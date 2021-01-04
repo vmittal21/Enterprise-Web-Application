@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Health Hub Homepage</title>
+    <!-- Link to font awesome CDN -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- Link to bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Import font awesome CDN -->
+    <script src="https://use.fontawesome.com/6373855059.js"></script>
+    <!-- Link to bootstrap CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Page Content -->
+    <div class="container mt-4">
+      <h4 class="px-4 py-2">Checkout</h4>
+      <div class="row">
+        <div class="col-lg-8 mb-4">
+          <div class="card wish-list pb-1">
+            <!-- Shipping address Info -->
+            <div class="card-body pb-0">
+              <h5 class="mb-2">1. Shipping address</h5>
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    name="firstName"
+                    placeholder="* First Name"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-4">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    name="middleName"
+                    placeholder="Middle Initial"
+                  />
+                </div>
+                <div class="form-group col-md-4">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    name="lastName"
+                    placeholder="* Last Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <!-- address input-->
+                  <input
+                    placeholder="* Address"
+                    type="text"
+                    class="form-control form-control-lg"
+                    name="address"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-2">
+                  <input
+                    placeholder="* City"
+                    type="text"
+                    class="form-control form-control-lg"
+                    name="city"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-2">
+                  <select
+                    name="state"
+                    class="form-control text-secondary"
+                    required
+                  >
+                    <option selected>* State</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <input
+                    placeholder="* Zip Code"
+                    type="text"
+                    class="form-control form-control-lg"
+                    name="zipCode"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Payment Method Info -->
+            <div class="card-body py-0">
+              <h5 class="mb-2">2. Payment method</h5>
+              <div class="d-block my-3">
+                <div class="form-check">
+                  <input
+                    id="credit"
+                    name="paymentMethod"
+                    type="radio"
+                    checked
+                    required
+                  />
+                  <label class="form-check-label" for="credit"
+                    >Credit card</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    id="debit"
+                    name="paymentMethod"
+                    type="radio"
+                    required
+                  />
+                  <label class="form-check-label" for="debit">Debit card</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    id="paypal"
+                    name="paymentMethod"
+                    type="radio"
+                    required
+                  />
+                  <label class="form-check-label" for="paypal">Paypal</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    id="cc-name"
+                    placeholder="* Name on card"
+                    required
+                  />
+                  <small class="text-muted"
+                    >Full name as displayed on card</small
+                  >
+                  <div class="invalid-feedback">Name on card is required</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    id="cc-number"
+                    placeholder="* Credit card number"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-3">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    id="cc-expiration"
+                    placeholder="* Expiration"
+                    required
+                  />
+                  <div class="invalid-feedback">Expiration date required</div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    id="cc-cvv"
+                    placeholder="* CVV"
+                    required
+                  />
+                  <div class="invalid-feedback">Security code required</div>
+                </div>
+              </div>
+            </div>
+            <!-- Review items and shipping Info -->
+            <div class="card-body pt-0">
+              <h5 class="mb-2">3. Review items and shipping</h5>
+              <table class="table table-hover col-9 mx-auto">
+                <tbody>
+                  <!-- Order Item 1 -->
+                  <tr class="row">
+                    <td class="col-sm-3 col-md-3">
+                      <small class="text-success font-weight-bold pr-0">
+                        Delivery Date:
+                      </small>
+                      <!-- Delivery Date -->
+                      <p class="text-success font-weight-bold">Nov. 25, 2020</p>
+                    </td>
+                    <td class="col-sm-5 col-md-5">
+                      <div class="media">
+                        <a class="thumbnail pull-left" href="#">
+                          <img
+                            class="media-object"
+                            src="image/pic02.JPG"
+                            style="width: 72px; height: 72px"
+                          />
+                        </a>
+                        <div class="media-body ml-2">
+                          <!-- Product name -->
+                          <p class="media-heading font-weight-bold m-0">
+                            <a href="#">Product name</a>
+                          </p>
+                          <!-- Brand name -->
+                          <small class="media-heading font-weight-bold">
+                            by <a href="#">Brand name</a>
+                          </small>
+                          <!-- Price -->
+                          <p class="font-weight-bold text-danger mb-1">$4.87</p>
+                          <div class="row mx-auto">
+                            <!-- Quantity -->
+                            <input
+                              type="text"
+                              class="form-control form-control-sm w-25 mr-2"
+                              id="quantity"
+                              name="quantity"
+                              value="3"
+                            />
+                            <!-- Delete button -->
+                            <button
+                              type="button"
+                              class="btn btn-sm btn-link"
+                              style="background-color: #fff"
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="col-sm-4 col-md-4">
+                      <small class="font-weight-bold pt-0 mt-0">
+                        Choose your delivery option:
+                      </small>
+                      <!-- Delivery Option; Home delivery, Store pickup -->
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="deliveryOption"
+                          id="homedelivery"
+                          value="Home Delivery"
+                          checked
+                        />
+                        <label class="form-check-label" for="homedelivery">
+                          Home Delivery
+                        </label>
+                      </div>
+                      <div class="form-check mb-2">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="deliveryOption"
+                          id="storepickup"
+                          value="Store Pickup"
+                        />
+                        <label class="form-check-label" for="storepickup">
+                          Store Pickup
+                        </label>
+                      </div>
+                      <!-- Select a store to pick up -->
+                      <!-- Might disable the select dropdown if user choose home delivery -->
+                      <select
+                        name="storeName"
+                        class="form-control form-control-sm text-secondary w-75"
+                      >
+                        <option selected>Select a store</option>
+                        <option>...</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <!-- Order Summary -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="mb-3">Order Summary</h5>
+
+              <ul class="list-group list-group-flush">
+                <!-- Total item amount -->
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0"
+                >
+                  Items
+                  <span>$53.98</span>
+                </li>
+                <!-- Shipping amount -->
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center px-0"
+                >
+                  Shipping & handling
+                  <span>$0.0</span>
+                </li>
+                <!-- Discount -->
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center px-0"
+                >
+                  Discount Applied
+                  <span>$6.00</span>
+                </li>
+                <!-- Total amount before tax -->
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center px-0"
+                >
+                  Total before tax
+                  <span>$0.0</span>
+                </li>
+                <!-- Tax amount -->
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center px-0"
+                >
+                  Estimated tax
+                  <span>$0.0</span>
+                </li>
+                <!-- Total amount -->
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3"
+                >
+                  <div>
+                    <strong class="text-danger">Order Total</strong>
+                  </div>
+                  <span><strong class="text-danger">$53.98</strong></span>
+                </li>
+              </ul>
+
+              <button type="button" class="btn btn-block form-btn">
+                Place your order
+              </button>
+              <small class="text-muted"
+                >After placing your order, we'll send you a confirmation
+                email.</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </body>
+</html>
