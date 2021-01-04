@@ -1,0 +1,36 @@
+// Get the number of transactions that were NOT delivered on time for every Delivery Zip Code
+
+MATCH (order:Order)-[HAS_DELIVERY]->(delivery)
+MATCH (order:Order)-[ORDER_DELIVERY_ZIP_CODE]->(Zipcode)
+WHERE delivery.Order_Delivered_on_Time = "no" and not Zipcode.Zipcode is null
+RETURN  Zipcode.Zipcode AS `zipcode`, count(*)
+
+// Get the number of disputed transactions and the list of customer names for these disputed transactions for Delivery Zip Code
+
+match(customer:Customer)-[PLACED_ORDER]->(Order)
+WHERE PLACED_ORDER.status="Disputed" 
+RETURN customer.name AS `customer name`, customer.zip AS `zipcode`, count(*)
+
+// Get the number of disputed transactions for EVERY CUSTOMER that has more that one disputed transaction
+
+match(customer:Customer)-[PLACED_ORDER]->(Order)
+WHERE PLACED_ORDER.status="Disputed" 
+WITH customer, count(*) as number_of_disputed_transations
+WHERE number_of_disputed_transations >1
+RETURN  customer.name, number_of_disputed_transations
+
+// Get the top 3 customers that reported the maximum number of returned orders
+
+MATCH (customer:Customer)-[PLACED_ORDER]->(Order)
+WHERE PLACED_ORDER.Order_Returned = "yes"
+WITH customer, count(*) AS number_of_returned_orders
+WHERE number_of_returned_orders > 0
+WITH customer, number_of_returned_orders
+ORDER BY number_of_returned_orders DESC LIMIT 3
+RETURN customer.name AS Customer, number_of_returned_orders
+
+// Get the number of returned orders and got review rating 1 for every product category in every Delivery Zip Code
+
+MATCH (customer:Customer)-[PLACED_ORDER]->(Order), (Order) - [ORDER_DELIVERY_ZIP_CODE] -> (Zipcode), (Order) - [SOLD] -> (product)
+WHERE ORDER_DELIVERY_ZIP_CODE.rating ='1' and PLACED_ORDER.Order_Returned = "yes" and not product.ProductType is null
+RETURN product.ProductType AS `Category`, Zipcode.Zipcode AS `zipcode`, count(*)
